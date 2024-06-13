@@ -1,0 +1,26 @@
+baseURL = 'https://test.3wb.jp/'
+languageCode = 'en-us'
+title = 'My Test Again'
+theme = 'hello-friend'
+
+[params]
+  description = "This is my blog"
+  author = "Your Name"
+  showReadingTime = true
+  ShowToc = true
+  ShowTocIcon = true
+  ShowTocToggle = true
+  ShowWordCount = true
+  GitHubRepo = "https://github.com/yourusername/yourrepo"
+
+[menu]
+  [[menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+  [[menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 2
+
+
